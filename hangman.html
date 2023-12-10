@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hangman</title>
+
+    <!-- <script src ="assets/js/list.js" defer></script> -->
+    <!-- <script src ="assets/js/hangman.js" defer></script> -->
+    <!-- font icons -->
+    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+    <!-- Bootstrap + Meyawo main styles -->
+    <link rel="stylesheet" href="assets/css/meyawo.css">
+    <link rel="stylesheet" href="hangman.css">
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+
+    <!-- Page Navbar -->
+    <nav class="custom-navbar" data-spy="affix" data-offset-top="20">
+        <div class="container">
+            <a class="logo" href="index.html">Fun Time</a>         
+            <ul class="nav">
+                <li class="item">
+                    <a class="link" href="hangman.html">Hangman</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="test.html">Quiz</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="list.html">Word List</a>
+                </li>
+            </ul>
+            <a href="javascript:void(0)" id="nav-toggle" class="hamburger hamburger--elastic">
+                <div class="hamburger-box">
+                  <div class="hamburger-inner"></div>
+                </div>
+            </a>
+        </div>          
+    </nav><!-- End of Page Navbar -->
+    <header id="home" class="header">
+        <div class="overlay"></div>
+        <div class="header-content container">
+            <h1 class="header-title">
+                <span class="up">Welcome to </span>
+                <span class="up">HangMan !</span>
+            </h1>
+            <p class="header-subtitle">Just read the description and</p>       
+            <p class="header-subtitle">select possible letters.</p>         
+            <!-- <button class="btn btn-primary">Visit My Works</button> -->
+        </div>              
+    </header><!-- end of page header -->
+    <section class="section" id="pricing">
+        <div class="container text-center">
+            <!-- <div class="pricing-wrapper" > -->
+                <div class="pop-up">
+                    <div class="content">
+                        <img src="assets/imgs/win.gif" alt="lose">
+                        <h4 class="result">Game Over!</h4>
+                        <p class="ans">The answer was <b>rainbow</b></p>
+                        <button class="restart">Play Again!</button>
+                    </div>
+                </div>
+                <div class="hangman-container">
+                    <div class="hangman">
+                        <img src="assets/imgs/hangman-0.svg" alt="hangman">
+                    </div>
+                    <div class="game">
+                        <ul class="guess"></ul>
+                        <p class="hint"><b>Hint: hihihiih</b></p>
+                        <p class="guess-time"><b>Incorrect Guesses: <strong>0 /5</strong></b></p>
+                        <div class="keyboard"></div>
+                    </div>
+                </div>
+            <!-- </div> -->
+            
+        </div>
+    </section>    
+    <!-- core  -->
+    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+
+    <!-- bootstrap 3 affix -->
+	<script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+
+    <!-- Meyawo js -->
+    <script src="assets/js/meyawo.js"></script>
+
+    <script src="assets/js/script.js"></script>
+
+    <script src="hangman.js"></script>
+    
+</body>
+</html>

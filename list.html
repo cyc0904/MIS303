@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="list.css">
+    <title>Vocabulary List</title>
+    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+    <!-- Bootstrap + Meyawo main styles -->
+    <link rel="stylesheet" href="assets/css/meyawo.css">
+    <link rel="stylesheet" href="assets/css/list.css">
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+
+  <!-- Page Navbar -->
+  <nav class="custom-navbar" data-spy="affix" data-offset-top="20">
+      <div class="container">
+          <a class="logo" href="index.html">Fun Time</a>         
+          <ul class="nav">
+              <li class="item">
+                  <a class="link" href="hangman.html">Hangman</a>
+              </li>
+              <li class="item">
+                  <a class="link" href="test.html">Quiz</a>
+              </li>
+              <li class="item">
+                  <a class="link" href="list.html">Word List</a>
+              </li>
+          </ul>
+          <a href="javascript:void(0)" id="nav-toggle" class="hamburger hamburger--elastic">
+              <div class="hamburger-box">
+                <div class="hamburger-inner"></div>
+              </div>
+          </a>
+      </div>          
+  </nav><!-- End of Page Navbar -->
+  <header id="home" class="header">
+    <div class="overlay"></div>
+    <div class="header-content container">
+        <h1 class="header-title">
+            <span class="up">Welcome to</span>
+            <span class="up">Word List !</span>
+        </h1>
+        <p class="header-subtitle">Following can improve you English.</p>            
+
+        <!-- <button class="btn btn-primary">Visit My Works</button> -->
+    </div>              
+</header>
+<div class="alphabet-buttons">
+  <!-- 這裡將放置字母按鈕 -->
+</div>
+<div class="portfolio-card">
+            <div id="vocabulary-container" >
+              <ul id="vocabulary-list" class="flex-container"></ul>
+          </div>
+</div>              
+    <!-- core  -->
+    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+
+    <!-- bootstrap 3 affix -->
+    <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+
+    <script src="list.js"></script>
+    <script src="assets/js/meyawo.js"></script>
+  </body>
+
+</html>

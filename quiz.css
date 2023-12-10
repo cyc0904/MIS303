@@ -1,0 +1,140 @@
+#home {
+  height: 100%;
+  width: 100%;
+}
+#overlay{
+  height: 100%;
+  width: 100%;
+}
+*{
+  /* margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif; */
+  box-sizing: border-box;
+}
+
+
+
+/* CSS */
+.button-8 {
+  background-color: #e1ecf4;
+  border-radius: 3px;
+  border: 1px solid #7aa7c7;
+  box-shadow: rgba(255, 255, 255, .7) 0 1px 0 0 inset;
+  box-sizing: border-box;
+  color: #39739d;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.15385;
+  margin: 5px;
+  outline: none;
+  padding: 8px .8em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+.button-8:hover,
+.button-8:focus {
+  background-color: #b3d3ea;
+  color: #2c5777;
+}
+
+.button-8:focus {
+  box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+}
+
+.button-8:active {
+  background-color: #a0c7e4;
+  box-shadow: none;
+  color: #2c5777;
+}
+
+.quiz-container{
+  top:50%;
+}
+
+body {
+  display: flexbpx;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  /* background-color: #f0f0f0; */
+}
+
+#quiz-container {
+  /* width: 500px;  */
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/* Your existing CSS... */
+
+/* Add styles for options */
+
+.option:hover {
+    background-color: #f0f0f0; /* Change background color on hover */
+}
+
+
+/* Add styles for options */
+.options-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.option {
+    padding: 10px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.option:hover {
+    background-color: #f0f0f0; /* Change background color on hover */
+}
+
+.correct-background {
+    background-color: lightgreen !important; /* Background color for correct answer */
+}
+
+.wrong-background {
+    background-color: #ff9999 !important; /* Background color for wrong answer */
+}
+
+span.correct-answer {
+    color: lightgreen;
+}
+
+span.wrong-answer {
+    color: #ff9999;
+}
+
+.result-list a:hover {
+    text-decoration: underline;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #695aa6;
+  border-color: #695aa6;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #594c8d;
+  border-color: #544885;
+}
